@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,6 +35,45 @@ namespace AuthenticationSystem
 
         }
 
+        string filePath = @"C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\User.txt";
+        private void logInButton_Click(object sender, EventArgs e)
+        {
+            if (CheckCredentials(usernameTextBox.Text, passwordTextBox.Text))
+            {
+                string[] lines = File.ReadAllLines(filePath);
 
+                foreach (string line in lines)
+                {
+                    string[] data = line.Split(',');
+                    if (data[0] == usernameTextBox.Text)
+                    {
+                        Dashboard dashboardForm = new Dashboard(data[2]);
+                        dashboardForm.Show();
+                        this.Hide();
+                    }
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password");
+            }
+        }
+
+        private bool CheckCredentials(string username, string password)
+        {
+            string[] lines = File.ReadAllLines(filePath);
+
+            foreach (string line in lines)
+            {
+                string[] data = line.Split(',');
+                if (data[0] == username && data[1] == password)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 }
