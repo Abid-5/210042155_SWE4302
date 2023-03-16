@@ -42,7 +42,19 @@ namespace AuthenticationSystem
 
             if (UserExists(usernameTextBox1.Text))
             {
-                MessageBox.Show("User already exists");
+                MessageBox.Show("A user with the same user name already exists");
+                return;
+            }
+
+            if (passwordTextBox1.Text != reTypePassTextBox1.Text)
+            {
+                MessageBox.Show("passwords do not match");
+                return;
+            }
+
+            if (passwordTextBox1.TextLength < 6 || reTypePassTextBox1.TextLength < 6)
+            {
+                MessageBox.Show("username and password must be at least six characters");
                 return;
             }
 
