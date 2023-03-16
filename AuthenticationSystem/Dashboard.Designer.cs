@@ -61,6 +61,7 @@
             this.Controls.Add(this.welcome);
             this.Controls.Add(this.button1);
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.ResumeLayout(false);
             this.PerformLayout();
