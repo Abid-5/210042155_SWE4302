@@ -1,0 +1,11 @@
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\bin\Debug\AuthenticationSystem.exe.config
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\bin\Debug\AuthenticationSystem.exe
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\bin\Debug\AuthenticationSystem.pdb
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.csproj.AssemblyReference.cache
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.csproj.SuggestedBindingRedirects.cache
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.Form1.resources
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.Properties.Resources.resources
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.csproj.GenerateResource.cache
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.csproj.CoreCompileInputs.cache
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.exe
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.pdb
