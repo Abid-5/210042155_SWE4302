@@ -10,3 +10,4 @@ C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSyst
 C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.exe
 C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.pdb
 C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.Sign_Up.resources
+C:\Users\abids\Desktop\OOC Lab\AuthenticationSystem\obj\Debug\AuthenticationSystem.Dashboard.resources

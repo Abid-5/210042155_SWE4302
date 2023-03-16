@@ -12,9 +12,17 @@ namespace AuthenticationSystem
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        public Dashboard(string text)
         {
             InitializeComponent();
+            welcome.Text = $"Welcome {text}";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 l1 = new Form1();
+            l1.Show();
+            this.Hide();
         }
     }
 }
