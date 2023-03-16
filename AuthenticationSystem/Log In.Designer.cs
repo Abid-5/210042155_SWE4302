@@ -48,6 +48,7 @@
             this.createAccLabel.Size = new System.Drawing.Size(109, 25);
             this.createAccLabel.TabIndex = 11;
             this.createAccLabel.Text = "Create one";
+            this.createAccLabel.Click += new System.EventHandler(this.createAccLabel_Click);
             // 
             // label3
             // 
@@ -92,9 +93,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(66, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 25);
+            this.label2.Size = new System.Drawing.Size(104, 25);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Password";
+            this.label2.Text = "Password:";
             // 
             // label1
             // 
@@ -102,9 +103,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(66, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
+            this.label1.Size = new System.Drawing.Size(108, 25);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Username";
+            this.label1.Text = "Username:";
             // 
             // button1
             // 
@@ -136,6 +137,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

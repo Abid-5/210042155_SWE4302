@@ -21,5 +21,17 @@ namespace AuthenticationSystem
         {
             Application.Exit();
         }
+
+        private void createAccLabel_Click(object sender, EventArgs e)
+        {
+            Sign_Up s1=new Sign_Up();
+            s1.Show();
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
